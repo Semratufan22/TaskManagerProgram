@@ -27,7 +27,14 @@ public class InventorySystem {
         System.out.println( inventory.get(1).getType());
 
         //changing array list
-       inventory.get("Shield").setValue(50);
-        System.out.println(inventory);
+        //shield.setValue(40);
+        //System.out.println(inventory);
+        //System.out.println(inventory.set(shield.getValue(40));
+        //removing Item
+        inventory.remove(5);
+        for (Item item : inventory) {
+            System.out.println(item);
+
+
     }
-}
+}}

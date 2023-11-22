@@ -32,9 +32,18 @@ public class InventorySystem {
         //System.out.println(inventory.set(shield.getValue(40));
         //removing Item
         inventory.remove(5);
+
         for (Item item : inventory) {
+            int totalValue = 0;
+            totalValue += item.getValue();
             System.out.println(item);
 
+            //calculating and displaying
+            for (Item item : inventory) {
+
+            }
+            System.out.println("Total Value of All Items: " + totalValue);
+        }
 
     }
 }}
